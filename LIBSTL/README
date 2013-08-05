@@ -1,0 +1,25 @@
+
+This software is a small STL replacement for DJGPP c++ compiler so you 
+do not need to link in the full STL all the time. 
+You can use it to make things for dosbox, a dos emulator, 
+dosbox can be found at 
+http://www.dosbox.com/ and the DJGPP toolkit is available at 
+http://www.delorie.com/
+You need to setup 
+gpp (which is linux's g++) and run make to compile this. 
+Note that you must unzip djgpp's zipfiles with unzip32.exe
+which can also be found on ftp.delorie.com
+
+You need the following zipfiles :
+djdev
+gcc473
+gpp473
+bnu223
+gpp273
+txi
+csdpmi
+mak
+unzip32.exe
+
+Do not forget the unix2dos command which can be found at 
+http://www.programmersheaven.com/ to make your files dos compatible.
