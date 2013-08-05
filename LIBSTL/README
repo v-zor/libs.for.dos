@@ -10,7 +10,7 @@ gpp (which is linux's g++) and run make to compile this.
 Note that you must unzip djgpp's zipfiles with unzip32.exe
 which can also be found on ftp.delorie.com
 
-You need the following zipfiles :
+You need the following *b zipfiles :
 djdev
 gcc473
 gpp473
@@ -18,7 +18,7 @@ bnu223
 gpp273
 txi
 csdpmi
-mak
+mak3791b
 unzip32.exe
 
 Do not forget the unix2dos command which can be found at 
