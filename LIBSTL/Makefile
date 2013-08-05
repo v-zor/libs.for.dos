@@ -6,10 +6,12 @@ CFLAGS=-O
 INCLUDES=
 all: libstl 
 
-libstl: dbstring.o dbvector.o
+libstl: dbfunctional.o dbstring.o dbvector.o
 	$(AR) rcu libstl-dos.a *.o
 	$(RANLIB) libstl-dos.a	
 
+dbfunctional.o:
+	$(CXX) $(INCLUDES) -c DBFUNCTIONAL.CPP
 dbstring.o:
 	$(CXX) $(INCLUDES) -c DBSTRING.CPP
 dbvector.o:
