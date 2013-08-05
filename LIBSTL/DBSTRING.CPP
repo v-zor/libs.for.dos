@@ -19,7 +19,7 @@
 
 #include "DBSTRING.H"
 
-namespace dosbox
+namespace stl
 {
 namespace std
 {
@@ -111,4 +111,4 @@ const char*string::c_str()
 }
 
 }//namespace std
-}//namespace dosbox	
+}//namespace stldos	

@@ -19,7 +19,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-namespace dosbox
+namespace stl
 {
 namespace std 
 {

@@ -18,7 +18,7 @@
 
 #include "DBVECTOR.H"
 
-namespace dosbox
+namespace stl
 {
 namespace std
 {
@@ -84,4 +84,4 @@ const vector<T>& vector<T>::operator=(vector<T>& v)
 }	
 
 }//namespace std
-}//namespace dosbox	
+}//namespace stldos	
